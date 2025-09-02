@@ -17,7 +17,6 @@ int evaluatePostfix(const string& postfix) {
             }
             int val2 = s.top(); s.pop();
             int val1 = s.top(); s.pop();
-
             switch (ch) {
                 case '+': s.push(val1 + val2); break;
                 case '-': s.push(val1 - val2); break;
@@ -50,4 +49,5 @@ int main() {
         cout << "Result: " << result << endl;
     return 0;
 }
+
 
