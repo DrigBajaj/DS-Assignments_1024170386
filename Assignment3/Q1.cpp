@@ -1,9 +1,7 @@
 #include <iostream>
 #include <stack>
 using namespace std;
-
 #define MAX_SIZE 5
-
 void display(stack<int> s) {
     if (s.empty()) {
         cout << "Stack is empty." << endl;
@@ -68,4 +66,5 @@ int main() {
     } while (choice != 0);
     return 0;
 }
+
 
